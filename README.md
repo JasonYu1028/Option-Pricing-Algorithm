@@ -1,4 +1,4 @@
-# Over-the-Counter Markets Exotic Oprions Pricer - Monte Carlo
+# Exotic Oprions Pricer - GBM Monte Carlo Simulation
 
 In this case, option payoffs depend not only on the stock price at expiration but also upon the history of the stock price sampled at various points during the life of the option. Assume that the stock price will be needed at the end of each of the next ***12*** months, in addition to $S_0$ today, and start by simulating ***10,000*** such stock price paths. In particular:
 
